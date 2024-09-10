@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    position: absolute;
+    left: 38%;
+    top:20%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius:5px ;
+    height: 25rem;
+    width: 27rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+.Login{
+     font-size: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+     padding-top:50px;
+     padding-bottom: 20px;
+}
+.click{
+    height: 30px;
+    width:100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: white;
+    transition: ease-in 0.1s;
+    font-weight: bold;
+}
+.click:hover{
+ transform:scale(1.1);
+ cursor: pointer;
+ background-color:rgb(255, 255, 255);
+}
+
+label{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+.password{
+    margin-left: 15px;
+    width: 50%;
+}
+.username{
+    margin-left: 15px;
+    width: 50%;
+}
